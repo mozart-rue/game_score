@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:game_score/core/ui/consts/app_colors.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -8,7 +9,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Game Score',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        colorScheme: ColorScheme.fromSeed(seedColor: AppColors.green100),
         useMaterial3: true,
       ),
       home: Container(),
